@@ -12,6 +12,10 @@ p {
     margin: 0;
 }
 
+h1 {
+    margin: 0;
+}
+
 /***** Header *****/
 
 .header_title {
@@ -25,12 +29,10 @@ p {
 .container_cards {
     padding: 40px 0px;
     width: 100%;
-    height: 1000px;
 }
 
 .top_card_container {
     display: flex;
-    height: 335px;
     margin-bottom: 14px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 4px;
@@ -122,7 +124,6 @@ p {
 .card_container {
     display: flex;
     width: calc(50% - 12px);
-    height: 335px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 4px;
     box-shadow: rgba(18, 16, 55, 0.16) 0px 3px 8px;
@@ -161,4 +162,81 @@ p {
     padding: 16px;
     gap: 8px;
     font-size: 16px;
+}
+
+/***** Code Promo *****/
+
+.container_code-promo {
+    padding: 40px 0px;
+}
+
+.code-promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.tuto_code-promo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.code_promo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.code_promo-img {
+    padding: 28px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 32px;
+    box-shadow: rgba(18, 16, 55, 0.16) 0px 3px 8px;
+}
+
+.code_promo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_color {
+    color: rgba(148, 0, 255, 1);
+}
+
+/***** Footer info *****/
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(249, 240, 255, 1);
+    border-radius: 80px;
+    padding: 40px 24px;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    gap: 24px;
+}
+
+.img_footer {
+    width: 800px;
+    height: 500px;
+}
+
+.footer_text-big {
+    font-size: 32px;
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
