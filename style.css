@@ -1,0 +1,164 @@
+/***** General *****/
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 40px 24px;
+}
+
+p {
+    margin: 0;
+}
+
+/***** Header *****/
+
+.header_title {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+/***** Cards *****/
+
+.container_cards {
+    padding: 40px 0px;
+    width: 100%;
+    height: 1000px;
+}
+
+.top_card_container {
+    display: flex;
+    height: 335px;
+    margin-bottom: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    box-shadow: rgba(18, 16, 55, 0.16) 0px 3px 8px;
+}
+
+.top_card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+}
+
+.code_promos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 2px dashed rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.img_copy {
+    width: 24px;
+    height: 24px;
+}
+
+.valid_offer {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.banner_promos-01 {
+    background-color: rgba(245, 3, 109, 1);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner_promos-02 {
+    background-color: rgba(56, 72, 28, 1);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner_promos-03 {
+    background-color: rgba(148, 0, 255, 1);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner_promos-04 {
+    background-color: rgba(255, 213, 0, 1);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.banner_promos-05 {
+    background-color: rgba(243, 32, 54, 1);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text_promos {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 14px;
+}
+
+.card_container {
+    display: flex;
+    width: calc(50% - 12px);
+    height: 335px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    box-shadow: rgba(18, 16, 55, 0.16) 0px 3px 8px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+/***** Warning *****/
+
+.warning_container {
+    display: flex;
+    background-color: rgba(255, 240, 229, 1);
+    border-radius: 4px;
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    font-size: 16px;
+}
