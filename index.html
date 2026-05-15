@@ -16,24 +16,24 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- JS -->
-
+    <script src="main.js" defer></script>
 </head>
 
 <body>
     <header>
         <!-- TITLE -->
-        <h1 class="header_title">Codes promos & conditions d'offres</h1>
+        <h1 class="title">Codes promos & conditions d'offres</h1>
     </header>
     <main>
         <!-- CARDS -->
         <section class="container_cards">
             <!-- CARD 1 -->
-            <div class="top_card_container">
+            <div class="top_card_container" id="card_offer">
                 <div class="top_card">
-                    <div class="code_promos">
-                        <p><b>2460</b></p>
+                    <button class="code_promos">
+                        <p><b><span class="code_copy">2460</span></b></p>
                         <img class="img_copy" src="images/icons.png" alt="icon copier">
-                    </div>
+                    </button>
                     <div>
                         <p class="valid_offer">Offre valable jusqu’au <b>01/03/2026</b></p>
                     </div>
@@ -59,12 +59,12 @@
             </div>
             <div class="cards">
                 <!-- CARD 2 -->
-                <div class="card_container">
+                <div class="card_container" id="card_offer">
                     <div class="card">
-                        <div class="code_promos">
-                            <p><b>2101</b></p>
+                        <button class="code_promos">
+                            <p><b><span class="code_copy">2101</span></b></p>
                             <img class="img_copy" src="images/icons.png" alt="icon copier">
-                        </div>
+                        </button>
                         <div>
                             <p class="valid_offer">Offre valable jusqu’au <b>01/03/2026</b></p>
                         </div>
@@ -85,12 +85,12 @@
                     </div>
                 </div>
                 <!-- CARD 3 -->
-                <div class="card_container">
+                <div class="card_container" id="card_offer">
                     <div class="card">
-                        <div class="subscribe">
+                        <button class="subscribe">
                             <p><b>S'abonner</b></p>
                             <img class="img_copy" src="images/letter_24px.png" alt="icon lettre">
-                        </div>
+                        </button>
                         <div>
                             <p class="banner_promos-03"><b>10€ offerts lors de votre abonnement newsletter</b></p>
                         </div>
@@ -110,7 +110,7 @@
             </div>
             <div class="cards">
                 <!-- CARD 4 -->
-                <div class="card_container">
+                <div class="card_container" id="card_offer">
                     <div class="card">
                         <div>
                             <p class="banner_promos-04"><b>Les prix réduits</b></p>
@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <!-- CARD 5 -->
-                <div class="card_container">
+                <div class="card_container" id="card_offer">
                     <div class="card">
                         <div>
                             <p class="banner_promos-05"><b>Les bonnes affaires</b></p>
@@ -166,7 +166,7 @@
         <section class="container_code-promo">
             <div class="code-promo">
                 <div>
-                    <h1>Utiliser un code promo</h1>
+                    <h1 class="title">Utiliser un code promo</h1>
                 </div>
                 <div class="tuto_code-promo">
                     <div class="code_promo-card">
@@ -208,15 +208,15 @@
             <div class="footer_info">
                 <div class="footer_text">
                     <p class="footer_text-big"><b>Vous souhaitez commander des <span class="text_color">références
-                                catalogue</span></b></p>
-                    <p class="footer_text-big"><b>avec des prix décotés sur le site ?</b></p>
+                                catalogue </span></b><b>avec des prix décotés sur le site ?</b>
+                    </p>
                 </div>
                 <div class="footer_text">
                     <p>Il vous suffit de cliquer sur « <b>commande par référence catalogue</b> » et entrez les
                         références
                         des
-                        articles de votre</p>
-                    <p>catalogue. Ils s’afficheront alors dans votre panier avec les prix réduits.</p>
+                        articles de votre catalogue. Ils s’afficheront alors dans votre panier avec les prix réduits.
+                    </p>
                 </div>
                 <div>
                     <img class="img_footer" src="images/footerimg.png" alt="icon conseil">
