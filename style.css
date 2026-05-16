@@ -88,6 +88,10 @@ h1 {
     background-color: rgb(215, 215, 215);
 }
 
+.code_btn:active {
+    background-color: rgb(155, 155, 155);
+}
+
 .subscribe_btn {
     display: flex;
     align-items: center;
@@ -103,6 +107,10 @@ h1 {
 
 .subscribe_btn:hover {
     background-color: rgb(215, 215, 215);
+}
+
+.subscribe_btn:active {
+    background-color: rgb(155, 155, 155);
 }
 
 .img_copy {
