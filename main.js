@@ -1,16 +1,16 @@
 // Copier le code promos
-const copyBtns = document.querySelectorAll(".code_promos");
+const copyBtns = document.querySelectorAll(".code_btn");
 
 copyBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-        const codeToCopy = btn.querySelector(".code_copy");
+        const codeToCopy = btn.querySelector(".code_text");
         const code = codeToCopy.textContent;
         navigator.clipboard.writeText(code);
     });
 });
 
 // S'abonner 
-const subscribeBtn = document.querySelector(".subscribe");
+const subscribeBtn = document.querySelector(".subscribe_btn");
 
 subscribeBtn.addEventListener("click", () => {
     console.log("Vous êtes désormais abonner !")
@@ -27,7 +27,7 @@ subscribeBtn.addEventListener("click", () => {
 //     return dateOffer(date) < new Date();
 // }
 
-// document.querySelectorAll(".valid_offer b").forEach((e, index) => {
+// document.querySelectorAll(".valid_date b").forEach((e, index) => {
 //     const date = e.textContent.trim();
 
 //     if(isExpired(date)){

@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <!-- TITLE -->
+        <!-- EN TETE -->
         <h1 class="title">Codes promos & conditions d'offres</h1>
     </header>
     <main>
@@ -30,15 +30,15 @@
             <!-- CARD 1 -->
             <div class="top_card_container" id="card_offer">
                 <div class="top_card">
-                    <button class="code_promos">
-                        <p><b><span class="code_copy">2460</span></b></p>
+                    <button class="code_btn">
+                        <p><b><span class="code_text">2460</span></b></p>
                         <img class="img_copy" src="images/icons.png" alt="icon copier">
                     </button>
                     <div>
-                        <p class="valid_offer">Offre valable jusqu’au <b>01/03/2026</b></p>
+                        <p class="valid_date">Offre valable jusqu’au <b>01/03/2026</b></p>
                     </div>
-                    <div>
-                        <p class="banner_promos-01"><b>-15%</b> sur votre 1er article, <b>-25%</b> sur votre 2ème
+                    <div class="banner_promos" id="banner_promos-01">
+                        <p><b>-15%</b> sur votre 1er article, <b>-25%</b> sur votre 2ème
                             article
                             et <b>-35%</b> sur votre
                             3ème article</p>
@@ -61,15 +61,15 @@
                 <!-- CARD 2 -->
                 <div class="card_container" id="card_offer">
                     <div class="card">
-                        <button class="code_promos">
-                            <p><b><span class="code_copy">2101</span></b></p>
+                        <button class="code_btn">
+                            <p><b><span class="code_text">2101</span></b></p>
                             <img class="img_copy" src="images/icons.png" alt="icon copier">
                         </button>
                         <div>
-                            <p class="valid_offer">Offre valable jusqu’au <b>01/03/2026</b></p>
+                            <p class="valid_date">Offre valable jusqu’au <b>01/03/2026</b></p>
                         </div>
-                        <div>
-                            <p class="banner_promos-02"><b>-30%</b> sur votre article le plus cher</p>
+                        <div class="banner_promos" id="banner_promos-02">
+                            <p><b>-30%</b> sur votre article le plus cher</p>
                         </div>
                         <div>
                             <p class="text_promos">*-15% 1er article -25% 2e article -35% 3e article : Dans le cas d'une
@@ -87,12 +87,12 @@
                 <!-- CARD 3 -->
                 <div class="card_container" id="card_offer">
                     <div class="card">
-                        <button class="subscribe">
+                        <button class="subscribe_btn">
                             <p><b>S'abonner</b></p>
                             <img class="img_copy" src="images/letter_24px.png" alt="icon lettre">
                         </button>
-                        <div>
-                            <p class="banner_promos-03"><b>10€ offerts lors de votre abonnement newsletter</b></p>
+                        <div class="banner_promos" id="banner_promos-03">
+                            <p><b>10€ offerts lors de votre abonnement newsletter</b></p>
                         </div>
                         <div>
                             <p class="text_promos">*-15% 1er article -25% 2e article -35% 3e article : Dans le cas d'une
@@ -112,11 +112,11 @@
                 <!-- CARD 4 -->
                 <div class="card_container" id="card_offer">
                     <div class="card">
-                        <div>
-                            <p class="banner_promos-04"><b>Les prix réduits</b></p>
+                        <div class="banner_promos" id="banner_promos-04">
+                            <p><b>Les prix réduits</b></p>
                         </div>
                         <div>
-                            <p class="valid_offer">Offre valable jusqu’au <b>01/03/2026</b></p>
+                            <p class="valid_date">Offre valable jusqu’au <b>01/03/2026</b></p>
                         </div>
                         <div>
                             <p class="text_promos">*-15% 1er article -25% 2e article -35% 3e article : Dans le cas d'une
@@ -134,11 +134,11 @@
                 <!-- CARD 5 -->
                 <div class="card_container" id="card_offer">
                     <div class="card">
-                        <div>
-                            <p class="banner_promos-05"><b>Les bonnes affaires</b></p>
+                        <div class="banner_promos" id="banner_promos-05">
+                            <p><b>Les bonnes affaires</b></p>
                         </div>
                         <div>
-                            <p class="valid_offer">Offre valable jusqu’au <b>01/03/2026</b></p>
+                            <p class="valid_date">Offre valable jusqu’au <b>01/03/2026</b></p>
                         </div>
                         <div>
                             <p class="text_promos">*-15% 1er article -25% 2e article -35% 3e article : Dans le cas d'une
@@ -154,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Warning -->
+            <!-- WARNING -->
             <div class="warning_container">
                 <div class="warning">
                     <img src="images/Warning.png" alt="icon d'information">
@@ -162,38 +162,38 @@
                 </div>
             </div>
         </section>
-        <!-- CODE PROMO -->
-        <section class="container_code-promo">
-            <div class="code-promo">
+        <!-- UTILISER CODE PROMO -->
+        <section class="container_use_code">
+            <div class="use_code">
                 <div>
                     <h1 class="title">Utiliser un code promo</h1>
                 </div>
-                <div class="tuto_code-promo">
-                    <div class="code_promo-card">
-                        <div class="code_promo-img">
-                            <img src="images/panier.png" alt="">
+                <div class="use_code_promo">
+                    <div class="code_promo_card">
+                        <div class="code_promo_img">
+                            <img src="images/panier.png" alt="icon panier">
                         </div>
-                        <div class="code_promo-text">
+                        <div class="code_promo_text">
                             <p><b>Compléter le panier</b></p>
                             <p> Sélectionner les articles et les <span class="text_color"><b>ajouter au
                                         panier.</b></span></p>
                         </div>
                     </div>
-                    <div class="code_promo-card">
-                        <div class="code_promo-img">
-                            <img src="images/code.png" alt="">
+                    <div class="code_promo_card">
+                        <div class="code_promo_img">
+                            <img src="images/code.png" alt="icon code">
                         </div>
-                        <div class="code_promo-text">
+                        <div class="code_promo_text">
                             <p><b>Saisir le code</b></p>
                             <p>Saisir votre code <b>dans votre panier</b> et cliquer sur le bouton</p>
                             <p>« <span class="text_color"><b>Appliquer le code ».</b></span></p>
                         </div>
                     </div>
-                    <div class="code_promo-card">
-                        <div class="code_promo-img">
-                            <img src="images/enjoy.png" alt="">
+                    <div class="code_promo_card">
+                        <div class="code_promo_img">
+                            <img src="images/enjoy.png" alt="icon profiter">
                         </div>
-                        <div class="code_promo-text">
+                        <div class="code_promo_text">
                             <p><b>Profiter !</b></p>
                             <p><span class="text_color"><b>La réduction s’applique automatiquement,</b></span></p>
                             <p>finaliser l’achat pour en bénéficier !</p>
@@ -204,10 +204,11 @@
         </section>
     </main>
     <footer>
+        <!-- CONDITIONS OFFRES -->
         <section class="footer_container">
             <div class="footer_info">
                 <div class="footer_text">
-                    <p class="footer_text-big"><b>Vous souhaitez commander des <span class="text_color">références
+                    <p class="footer_text_big"><b>Vous souhaitez commander des <span class="text_color">références
                                 catalogue </span></b><b>avec des prix décotés sur le site ?</b>
                     </p>
                 </div>
@@ -218,7 +219,7 @@
                         articles de votre catalogue. Ils s’afficheront alors dans votre panier avec les prix réduits.
                     </p>
                 </div>
-                <div>
+                <div class="footer_container_img">
                     <img class="img_footer" src="images/footerimg.png" alt="icon conseil">
                 </div>
             </div>
